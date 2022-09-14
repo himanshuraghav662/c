@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -29,13 +30,17 @@ int main() {
             break;
             case 9:printf("nine\n");
             break;
-           default : if(i%2==0)
-           {  printf("even\n");}
-            
-            else{ printf("odd\n");}
               
       }
     }
+    if(a%2==0)
+           {  printf("even\n");}
+            
+            if(a%2!=0){ printf("odd\n");}
+     if(b%2==0)
+           {  printf("even\n");}
+            
+            if(b%2!=0){ printf("odd\n");}  
 
     return 0;
 }
