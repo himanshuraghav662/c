@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+    int n;
+    int a[n];
+    printf("enter no of elements you want");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        scanf("%d",&a[i]);
+}
+for(int k=n;k>=1;k--)
+{
+    printf("%d",a[k]);
+}
+    return 0;
+}
