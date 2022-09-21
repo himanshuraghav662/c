@@ -1,0 +1,33 @@
+
+#include <stdio.h>
+
+int main() {
+    int an=0,a,j,n,k=0,h;
+    printf("enter a no\n");
+    scanf("%d",&a);
+    j=a;
+    h=a;
+    while(j!=0)
+    {
+        j=j/10;
+        k=k+1;
+    }
+  printf("k =%d\n",k);
+    for(int i=0;i<k;i++)
+    {
+        n=a%10;
+        a=a/10;
+        int l=1;
+        while(l<k)
+        {
+            n=n*n;
+        }
+    }
+    printf("an  %d",an);
+    if(an==h)
+    {printf("%d is a armstrong no",an);}
+    else
+        {printf("not a armstrong no");}
+
+    return 0;
+}
